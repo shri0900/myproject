@@ -1,4 +1,5 @@
 public with sharing class AccountHelper {
+    //Adding a sample message
     @AuraEnabled
     public static List<Account> createAccount(String accountName,String accIndustry){
        List<Account>accToInsert=New List<Account>();
