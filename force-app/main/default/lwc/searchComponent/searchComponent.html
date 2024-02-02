@@ -1,0 +1,11 @@
+<template>
+<lightning-card title="Serach box">
+    <lightning-combobox onchange={handleChange}
+                        options={options}
+                        value={value}
+                        label="Account Name"
+                        placeholder="Enter Account Name">
+    </lightning-combobox>
+    <p>Selected Account's Id:{value}</p>
+</lightning-card>
+</template>

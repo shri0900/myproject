@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Parent Component">
+        <lightning-input label="Enter Number" value={counter} onchange={handleNumChange}></lightning-input>
+        <lightning-button label="Add+1" onclick={handleAdditionEvent} variant="brand"></lightning-button>
+        <lightning-button label="Substract-1" onclick={handleSubsctrationsEvent} variant="brand"></lightning-button>
+    </lightning-card>
+    <c-child-component startvalue={counter}></c-child-component>
+</template>

@@ -1,0 +1,9 @@
+<template>
+<lightning-card title="Parent Component">
+    <p>Counter:{startCounter}</p>
+</lightning-card>
+<c-child-comp onadd={handleAdditions}
+                onsubstract={handleSubstraction}  
+                onmultiply={handleMultiplication}>
+</c-child-comp>
+</template>

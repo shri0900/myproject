@@ -1,0 +1,12 @@
+<template>
+<lightning-card title="Data Table">
+    <template if:true={wiredAccs}>
+        <lightning-datatable key-field="Id"
+        columns={columns}
+        data={data}
+        class="slds-box_small">
+</lightning-datatable>
+    </template>
+        
+</lightning-card>
+</template>

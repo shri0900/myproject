@@ -1,0 +1,11 @@
+<template>
+<lightning-card title="Record Edit Form">
+    <lightning-record-edit-form object-api-name={objapiName}
+                                density="Compact"
+                                onsuccess={handleSuccess}>
+    <lightning-input-field field-name={conLastName}></lightning-input-field>
+    <lightning-input-field field-name={conEmail}></lightning-input-field>
+    <lightning-button variant="brand" type="submit" label="Create"></lightning-button>
+    </lightning-record-edit-form>
+</lightning-card>
+</template>
